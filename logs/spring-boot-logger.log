@@ -1,0 +1,24 @@
+2020-02-21 08:20:55,654 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-02-21 08:20:56,164 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=bd39ccfe-0534-386e-bbc0-77df14769e64
+2020-02-21 08:20:56,569 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2020-02-21 08:20:56,575 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-21 08:20:56,575 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2020-02-21 08:20:56,575 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-21 08:20:56,646 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2020-02-21 08:20:56,647 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 978 ms
+2020-02-21 08:20:57,212 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-21 08:20:57,546 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-02-21 08:20:57,614 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2020-02-21 08:20:57,625 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-21 08:20:57,630 INFO org.springframework.boot.StartupInfoLogger [main] Started PingpongApplication in 2.743 seconds (JVM running for 3.174)
+2020-02-21 08:20:57,741 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-172.20.122.63] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-21 08:20:57,743 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-172.20.122.63] Initializing Servlet 'dispatcherServlet'
+2020-02-21 08:20:57,771 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-172.20.122.63] Completed initialization in 28 ms
+2020-02-21 08:21:43,056 INFO se.tre.pingpong.controller.PingController [http-nio-8080-exec-1] ping called
+2020-02-21 08:23:17,278 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-21 08:25:32,512 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-02-21 08:25:33,116 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=9fbc4c96-0570-3950-af4e-ef01a3d9b310
+2020-02-21 08:25:34,091 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-21 08:25:35,140 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-02-21 08:25:35,230 INFO org.springframework.boot.StartupInfoLogger [main] Started PingpongApplicationTests in 4.568 seconds (JVM running for 5.37)
+2020-02-21 08:25:35,701 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
