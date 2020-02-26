@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: pingpong
+  name: pingpong
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pingpong
+  template:
+    metadata:
+      labels:
+        app: pingpong
+    spec:
+      containers:
+        - image: Overridden by deploy job
+          imagePullPolicy: Always
+          name: Overridden by deploy job
+          ports:
+            - containerPort: 8080
+              protocol: TCP
